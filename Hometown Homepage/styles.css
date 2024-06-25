@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(lightblue, pink);
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    height: 600px;
+    background-image: url('cover.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.head {
+    background: #1D3557;
+    margin-top: 200px;
+    margin-bottom: 11px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.8px;
+    text-align: center;
+}
+
+.subhead {
+    width: 400px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    background: #457B9D;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.activity {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hint {
+    margin: 40px 0;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    color: #457B9D;
+    text-align: center;
+}
+
+p {
+    width: 198px;
+    height: 54px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card { 
+    width: 500px;
+    margin: 50px auto ;
+    display: flex;
+    background: aquamarine;
+    padding: 20px; 
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border-bottom: 6px solid black;
+    font: Ariel; 
+}
+
+#guid-img{
+    width: 200px;
+}
