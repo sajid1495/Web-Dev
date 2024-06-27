@@ -1,0 +1,50 @@
+body {
+    background: purple;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    line-height: 35 px;
+    text-align: center;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 150px;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    background: black;
+    color: red;
+    height: 120px;
+    width: 155px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin: 0px auto 5px auto;
+}
+
+.btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-top: 20px;
+    height: 45px;
+    width: 50px;
+    border: 3px solid #9AABD8;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: #9AABD8;
+}
+
