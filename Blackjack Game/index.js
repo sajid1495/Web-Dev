@@ -1,0 +1,79 @@
+let cards = []
+
+let sum = 0
+let hasBlackJack = false
+let isAlive = false
+let isStarted = false
+
+let massageEL = document.getElementById("message-el")
+let sumEL = document.querySelector("#sum-el")
+let cardEL = document.querySelector("#cards-el")
+
+let player = {
+    name: "Sajid",
+    chips : 100,  
+}
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips 
+
+function getRandomNum() {
+    let randNum = Math.floor(Math.random() * 13) + 1
+    if (randNum === 1) {
+        return 11
+    }
+    else if (randNum > 10) {
+        return 10
+    }
+    else {
+        return randNum
+    }
+}
+
+
+function startGame() {
+    if (isStarted === false) {
+        isAlive = true
+        hasBlackJack = false
+        let firstCard = getRandomNum()
+        let secondCard = getRandomNum()
+        cards = [firstCard, secondCard]
+        sum = cards[0] + cards[1]
+        renderGame()
+    }
+}
+
+function renderGame() {
+    sumEL.textContent = "Sum: " + sum
+    cardEL.textContent = "Cards: "
+    for (let i = 0; i < cards.length; i++) {
+        cardEL.textContent += cards[i] + " "
+    }
+    if (sum <= 20) {
+        message = "Do you want to draw a new card? 🙂"
+        isStarted = true
+    }
+    else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack! 🥳"
+        hasBlackJack = true
+        isStarted = false
+        player.chips += 100
+    }
+    else {
+        message = "You're out of the game! 😭"
+        isAlive = false
+        isStarted = false
+        player.chips -= 100
+    }
+    massageEL.textContent = message
+
+}
+
+function newCard() {
+    if (isAlive === true && hasBlackJack === false) {
+        let card = getRandomNum()
+        cards.push(card)
+        sum += card
+        renderGame()
+    }
+}
