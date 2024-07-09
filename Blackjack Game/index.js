@@ -11,11 +11,15 @@ let cardEL = document.querySelector("#cards-el")
 
 let player = {
     name: "Sajid",
-    chips : 100,  
+    chips: 1000,
 }
 
+let doller = player.chips
+
 let playerEl = document.getElementById("player-el")
-playerEl.textContent = player.name + ": $" + player.chips 
+playerEl.textContent = player.name + ": $" + doller 
+
+
 
 function getRandomNum() {
     let randNum = Math.floor(Math.random() * 13) + 1
@@ -52,22 +56,25 @@ function renderGame() {
     if (sum <= 20) {
         message = "Do you want to draw a new card? 🙂"
         isStarted = true
+        playerEl.textContent = player.name + ": $" + doller
     }
     else if (sum === 21) {
         message = "Wohoo! You've got Blackjack! 🥳"
         hasBlackJack = true
         isStarted = false
-        player.chips += 100
+        doller += 100
+        playerEl.textContent = player.name + ": $" + doller
     }
     else {
         message = "You're out of the game! 😭"
         isAlive = false
         isStarted = false
-        player.chips -= 100
+        doller -= 100
+        playerEl.textContent = player.name + ": $" + doller
     }
     massageEL.textContent = message
-
 }
+
 
 function newCard() {
     if (isAlive === true && hasBlackJack === false) {
@@ -77,3 +84,5 @@ function newCard() {
         renderGame()
     }
 }
+
+
