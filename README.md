@@ -14,7 +14,7 @@ This repository serves as a portfolio of my journey in learning web development.
     ```
 2. Navigate to the project directory you're interested in:
     ```sh
-    cd web-development-projects/Project1-BasicHTMLPage
+    cd web-devs/Birthday Site
     ```
 3. Open the `index.html` file in your browser to view the project.
 
