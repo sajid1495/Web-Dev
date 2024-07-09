@@ -48,11 +48,17 @@ button{
 }
 
 #copy1{
-    font-size: 20px;   
+    font-size: 20px;  
+    background-color: aquamarine;
+    color: #1F2937;
+    font-weight: bold; 
 }
 
 #copy2{
-    font-size: 20px;   
+    font-size: 20px;  
+    background-color: aquamarine;
+    color: #1F2937;
+    font-weight: bold;    
 }
 
 .password{
