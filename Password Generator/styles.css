@@ -1,0 +1,72 @@
+body{
+    background-color: #1F2937;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+button{
+    background-color: #10B981;
+    font-family: 'Inter';
+    font-size: 25px;
+    padding: 5px 20px;
+    border-radius: 5px; 
+    color: #FFFFFF; 
+    margin-bottom: 0px; 
+}
+
+.heading{
+    font-size: 50px;
+    font-family: 'Karla'; 
+    font-weight: bold;
+}
+
+#head1{
+    color: white;
+    margin-bottom: 0;
+}
+
+#head2{
+    color: #4ADF86; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#hints{
+    margin-top: 10px;
+    color: #D5D4D8;
+    font-family: 'Inter'; 
+}
+
+#passField{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px; 
+}
+
+#copy1{
+    font-size: 20px;   
+}
+
+#copy2{
+    font-size: 20px;   
+}
+
+.password{
+    height: 40px; 
+    width: 300px;  
+    background-color: #273549;
+    border-radius: 5px; 
+    margin: 40px 30px 10px 30px; 
+    padding-top: 10px;  
+    color: #55F991;
+}
+
+.password:hover{
+    background-color: #FB7185;
+}
+
+
