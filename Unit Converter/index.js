@@ -11,12 +11,12 @@ convertBtn.addEventListener("click", function() {
 
     let lTg = (inputVal * 0.264172).toFixed(3)
     let gTl = (inputVal * 3.78541).toFixed(3)
-    let outputEl2 = document.getElementById("output-volume")
-    outputEl2.innerText = `${inputVal} liters = ${lTg} gallons | ${inputVal} gallons = ${gTl} liters`
+    outputEl = document.getElementById("output-volume")
+    outputEl.innerText = `${inputVal} liters = ${lTg} gallons | ${inputVal} gallons = ${gTl} liters`
 
     let kTp = (inputVal * 2.20462).toFixed(3)
     let pTk = (inputVal * 0.453592).toFixed(3)
-    let outputEl3 = document.getElementById("output-mass")
-    outputEl3.innerText = `${inputVal} kilograms = ${kTp} pounds | ${inputVal} pounds = ${pTk} kilograms`
+    outputEl = document.getElementById("output-mass")
+    outputEl.innerText = `${inputVal} kilograms = ${kTp} pounds | ${inputVal} pounds = ${pTk} kilograms`
 
 })
