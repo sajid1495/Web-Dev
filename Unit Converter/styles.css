@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    background-color: #1F2937; 
+    text-align: center;
+    font-family: "Inter"; 
+}
+
+#header{
+    height: 300px;
+    background-color: #6943FF;
+
+}
+
+p{
+    margin: 0;
+}
+
+#headtext{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px 0px ; 
+}
+
+#inpBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-el{
+    width: 120px; 
+    height: 60px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background: transparent;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+
+button{
+    height: 42px;
+    width: 129px;
+    font-size: 20px;  
+    border-radius: 5px; 
+}
+
+.output-field{
+    background-color: #273549;
+    height: 110px; 
+    margin: 40px 30px;
+    border-radius: 5px;  
+}
+
+.output-head{
+    color: #CCC1FF;
+    font-size: 20px;
+    padding-top: 30px; 
+}
+
+
+.output{
+    color: white;
+    padding-top: 10px;
+}
