@@ -6,6 +6,15 @@ Welcome to my Frontend Development Projects repository! This repository contains
 
 This repository serves as a portfolio of my journey in learning web development. Each project demonstrates different skills and techniques, from basic HTML structure to advanced JavaScript interactions.
 
+## Projects Face
+
+<img src="https://github.com/user-attachments/assets/59bba5fa-01f9-44b0-b58e-e0e20c8c5a3c" width=503>
+<img src="https://github.com/user-attachments/assets/b7a13766-198f-4cef-b215-c46c43414d9d" width=503>
+<img src="https://github.com/user-attachments/assets/a4e879c1-83bd-4c30-b3af-4192997449a0" width=503>
+<img src="https://github.com/user-attachments/assets/fc0135b3-5f81-4d00-b317-231066501302" width=503>
+<img src="https://github.com/user-attachments/assets/b90ab58f-ba58-4c2f-9f17-ccbbdbc4382c" width=503>
+<img src="https://github.com/user-attachments/assets/d5287ccc-e46d-45ba-9874-434ce4d59dd8" width=503>
+
 ## How to Use
 
 1. Clone the repository to your local machine using:
